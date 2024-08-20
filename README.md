@@ -1,5 +1,6 @@
 # Wordle Game in Python 🎮
 Welcome to the Python implementation of the popular word puzzle game Wordle! This repository contains a simple, text-based version of the game, where players have six attempts to guess a secret five-letter word. With each guess, the game provides feedback on which letters are correct and whether they are in the correct position.
+This game uses very basic features of python as it is the first game I developed.
 
 Features
 Interactive Gameplay: Enter guesses and receive real-time feedback on your accuracy.
