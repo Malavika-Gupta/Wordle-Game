@@ -1,24 +1,71 @@
-# Wordle Game in Python 🎮
-Welcome to the Python implementation of the popular word puzzle game Wordle! This repository contains a simple, text-based version of the game, where players have six attempts to guess a secret five-letter word. With each guess, the game provides feedback on which letters are correct and whether they are in the correct position.
-This game uses very basic features of python as it is the first game I developed.
+# 🟩 Wordle Game in Python 🎮
 
-Features
-Interactive Gameplay: Enter guesses and receive real-time feedback on your accuracy.
-Color-Coded Hints: Letters in the correct position are marked, helping you to narrow down the word.
-Word List: A predefined list of valid five-letter words.
-Random Word Generation: Each game starts with a randomly selected word, ensuring a unique experience every time.
-Endgame Summary: After each game, receive a summary of your performance, including the correct word and number of attempts.
+![Made With](https://img.shields.io/badge/made%20with-Python-blue?logo=python)
+![Status](https://img.shields.io/badge/status-Completed-brightgreen)
+![First Game](https://img.shields.io/badge/beginner-project-blueviolet)
 
-How to Play
-Enter a five-letter word as your guess.
-The game will give you feedback on your guess:
-A correct letter in the correct position will be highlighted.
-A correct letter in the wrong position will also be indicated.
-Use the feedback to adjust your next guess.
-You have six attempts to guess the correct word.
+Welcome to my **Python Wordle** — a terminal-based clone of the viral word puzzle game!  
+Built entirely using beginner-friendly Python logic, this was my **first-ever game project** 🐍💚.
 
-Requirements
-Python 3.x
+---
 
-Contributing
-Feel free to fork this repository and contribute by submitting a pull request. Please ensure your code adheres to the project's coding standards.
+## 🎯 Gameplay Overview
+
+Your mission: **Guess the secret five-letter word** within **six attempts**.
+
+After each guess, you receive color-coded hints to help crack the code:
+- 🟩 **Green**: Letter is correct and in the correct position.
+- 🟨 **Yellow**: Letter is correct but in the wrong position.
+- ⬜ **Gray**: Letter is not in the word at all.
+
+---
+
+## ✨ Features
+
+- 🎮 **Interactive Terminal Gameplay**
+- 🎯 **Color-coded Hints** for instant feedback
+- 🧠 **Predefined Word List** of valid five-letter words
+- 🎲 **Random Word Generation** for a unique game every time
+
+---
+
+## 🖼️ Screenshots
+
+<p align="center">
+  <img src="Screenshot%202025-06-04%20222156.png" width="500"><br>
+  <img src="Screenshot%202025-06-04%20222315.png" width="500"><br>
+  <img src="Screenshot%202025-06-04%20222613.png" width="500">
+</p>
+
+---
+
+## ▶️ How to Play
+
+1. Clone the repo and navigate to the folder.
+2. Run the script:
+   ```bash
+   python wordle.py
+   Enter your five-letter word guess.
+3. Enter your five-letter word guess.
+4. You get six attempts to find the word!
+---
+
+## 🔨 Requirments
+
+- Python 3.x
+✅ No external libraries needed — it’s all standard Python.
+
+---
+
+## 🤝 Contributing
+
+Have ideas for :
+- Visual upgrades? 🖍️
+- Difficulty levels? 😈
+- Or even a GUI version? 🎨
+
+Feel free to fork this repo and send in a pull request.
+Let's level up this retro terminal fun together!
+
+---
+
